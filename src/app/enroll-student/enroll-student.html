@@ -1,0 +1,26 @@
+<div class="page">
+  <h2>Enroll Student</h2>
+
+  <label for="studentId">Student ID</label>
+  <input
+    id="studentId"
+    type="number"
+    [(ngModel)]="studentId"
+    placeholder="e.g. 1, 2, 3"
+  />
+
+  <label for="courseId">Course ID</label>
+  <input
+    id="courseId"
+    type="number"
+    [(ngModel)]="courseId"
+    placeholder="e.g. 101, 102"
+  />
+
+  <button
+    (click)="enroll()"
+    [disabled]="!studentId || !courseId"
+  >
+    Enroll Student
+  </button>
+</div>
