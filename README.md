@@ -1,4 +1,10 @@
 # Student Course Enrollment and Management System
+## TEAM MEMBERS
+- Aaron V Shibu
+- Evan K S
+- Albert Varghese
+- Joseph T Manu
+- Abhishek Paul Johnson
 
 This project is a standalone Angular application developed using TypeScript.
 
